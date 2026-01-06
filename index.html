@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ape Escape Kenya - Booking Forms</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            padding: 50px 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 900px;
+            width: 100%;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+        .form-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+        .form-card {
+            padding: 35px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 15px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .form-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+        .form-card h2 {
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+        .form-card p {
+            opacity: 0.95;
+            font-size: 1.1em;
+        }
+        .emoji {
+            font-size: 3em;
+            display: block;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏝️ Ape Escape Kenya</h1>
+        <p class="subtitle">Booking Intake Formulare für Agenturen</p>
+
+        <div class="form-links">
+            <a href="coastal-soul-kenya.html" class="form-card">
+                <span class="emoji">🌊</span>
+                <h2>Coastal Soul Kenya</h2>
+                <p>Zum Formular →</p>
+            </a>
+
+            <a href="east-african-retreats.html" class="form-card">
+                <span class="emoji">🦁</span>
+                <h2>East African Retreats</h2>
+                <p>Zum Formular →</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
